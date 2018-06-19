@@ -43,7 +43,8 @@ def train(dataMat,topNfeat=9999):
 
 
 if __name__=='__main__':
-    train(load_data(),4)
+    lowData,redEigVects = train(load_data(),4)
+    print(lowData)
 
 
 
